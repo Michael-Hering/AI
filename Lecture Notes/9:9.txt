@@ -1,0 +1,7 @@
+function TREESEARCH(problem, strategy) returns a solution, or failure
+	initialize the search tree using the initial state of the problem
+	loop:
+		if there are no candidates for expansion then return failure
+		choose a leaf node for expansion based on strategy
+		if the node contains a goal state then return the solution
+		else expand the node, add the resulting nodes to the search tree
